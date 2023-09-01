@@ -1,0 +1,27 @@
+﻿Experiment Name;Optimizer;Learning Rate;Lane Weight;Augmentation Setting;Best Epoch;Test-F1;Test accuracy;Other Notes(optional)
+Baseline_network;Adam;0,0002;1:500;None;91;71,68%;98,49%;
+test1;SGD;0,0002;1:500;None;95;19,00%;83,47%;
+test2;Adamax;0,0002;1:500;None;92;84,77%;99,33%;
+test3;AdamW;0,0002;1:500;None;100;68,01%;98,20%;
+test4;Adamax;0,005;1:500;None;100;70,38%;98,41%;
+test5;Adamax;0,0025;1:500;None;100;70,04%;98,36%;
+test6;Adamax;0,00075;1:500;None;97;74,33%;98,69%;
+test7;Adamax;0,0005;1:500;None;100;78,56%;98,96%;
+test8;Adamax;0,0005;1:500;augmentation_list_1;75;37,68%;93,68%;
+test9;Adam;0,0002;1:500;augmentation_list_1;99;35,71%;89,91%;
+test10;Adamax;0,0002;1:600;augmentation_list_2;96;51,59%;96,50%;
+test11;Adam;0,0002;1:600;augmentation_list_2 and None;97;70,17%;98,39%;train1, 2, 3 are data augmentetions
+test12;Adam;0,0003;1:500;augmentation_list_1 and None;66;55,45%;96,93%;train1, 2, 3 are data augmentetions
+test13;Adam;0,00025;1:500;augmentation_list_2 and None;91;57,57%;97,18%;train1, 2, 3 are data augmentetions
+test14;Adam;0,00025;1:500;None;19;69,41%;98,45%;
+test15;Adam;0,0002;1:500;None;91;64,28%;97,86%;
+test16;Adam;0,0003;1:500;angmentation_list_2;147;48,29%;95,95%;
+test17;Adam;0,0002;1:500;None;138;75,75%;98,78%;
+test18;Adamax;0,0002;1:500;augmentation_list_2 and None;144;80,91%;99,12%;train1, 2, 3 are data augmentetions
+test19;Adam;0,0002;1:500;augmentation_list_1;154;44,00%;95,22%;
+test20;Adam;0,0002;1:500;augmentation1 and augmentation_list_2 and None;200;70,83%;98,46%;train1, 2, 3 are data augmentetions
+test21;Adam;0,0002;1:500;augmentation_list_3;969;64,00%;97,86%;
+test22;Adam;0,00002;1:500;augmentation_list_3;798;66,27%;98,07%;
+test23;Adam;0,0002;1:500;None;499;90,69%;99,62%;
+;;;;;;;;
+;;;;;;;;
